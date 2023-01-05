@@ -16,7 +16,7 @@ body {
 	font-family: "Montserrat", sans-serif;
   font-size: 14px;
 	color: #000;
-	background-color: #fff;
+	background-color: #a2e895;
 }
 
 img {
@@ -113,8 +113,17 @@ color: #bd082a;
 .hero__text {
 	max-width: 500px;
 }
+.hero__text p{
+	margin: 0;
+	margin-bottom: 10px;
+	line-height: 18px;
+	color: #2d2b2b;
+}
 .hero__title {
 	margin: 0;
+	margin-bottom: 20px;
+}
+.title{
 	font-size: 16px;
 	color: #fff;
 }
@@ -123,8 +132,14 @@ color: #bd082a;
 	margin-top: 8px;
 	font-size: 24px;
 }
-.hero__descr {
+.hero__descr{
 	color: #403d3d;
+}
+.hero__developer{
+	margin: 0;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 26px;
 }
 
 /*---------------------- подвал ------------------------*/
